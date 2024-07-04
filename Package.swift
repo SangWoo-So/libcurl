@@ -16,7 +16,7 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .binaryTarget(name: "libcurl", url: "https://github.com/SangWoo-So/libcurl/raw/main/libcurl-xcframework-8.8.0.zip",
+        .binaryTarget(name: "libcurl", url: "https://github.com/SangWoo-So/libcurl/raw/xcframework/libcurl-xcframework-8.8.0.zip",
                        checksum: "4f5cf5bd403da598ca6ed3381711cfa5dd0393c29ab2d5bf571b20aef9f954f5")
     ]
 )
